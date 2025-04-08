@@ -8,19 +8,19 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/vista2">Home</a>
+          <a class="nav-link active" aria-current="page" href="{{route('home')}}">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/posicion">Posiciones</a>
+          <a class="nav-link" href="{{route('pos')}}">Posiciones</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/reglas">Reglas</a>
+          <a class="nav-link" href="{{route('reg')}}">Reglas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/historia">Historia</a>
+          <a class="nav-link" href="{{route('his')}}">Historia</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/vista">Los mejores jugadores</a>
+          <a class="nav-link" href="{{route('mejores')}}">Los mejores jugadores</a>
         </li>
       </ul>
     </div>

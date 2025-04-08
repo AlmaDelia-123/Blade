@@ -7,19 +7,19 @@ use Illuminate\Http\Request;
 class InicioController extends Controller
 {
     //creamos 4 fuciones que nos retornaran una vista
-    public function index(){
-        return view("posicion");
+    public function posicion(){
+        return view("pages.posicion",["titulo"=>"Pocision"]);
     }
     public function reglas(){
-        return view("reglas");
+        return view("pages.reglas",["titulo"=>"Reglas"]);
     }
     public function historia(){
-        return view("historia");
+        return view("pages.historia",["titulo"=>"Historia"]);
     }
     public function vista(){
-        return view("vista");
+        return view("pages.vista",["titulo"=>"Mejores"]);
     }
     public function vista2(){
-        return view("vista2");
+        return view("pages.vista2",["titulo"=>"Home"]);
     }
 }
